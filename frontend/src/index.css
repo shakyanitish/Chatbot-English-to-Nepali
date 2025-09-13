@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+
+/* Custom scrollbar for chat */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a78bfa; /* purple-400 */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7c3aed; /* purple-600 */
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body default */
+body {
+  font-family: 'Inter', sans-serif;
+}
