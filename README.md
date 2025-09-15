@@ -1,6 +1,3 @@
-https://chatbot-english-to-nepali.vercel.app/
-
-
 Screenshot
 
 
